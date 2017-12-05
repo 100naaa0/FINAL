@@ -10,7 +10,7 @@ body {
   margin: 0;
 }
 
-/*.background {
+.background {
   display: flex;
   position: absolute;
   color: #fff;
@@ -20,6 +20,7 @@ body {
   align-items: center;
 }
 
+/*
 .dotted_border {
   display: flex;
   border: thick dotted black;
