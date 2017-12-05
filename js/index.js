@@ -100,7 +100,7 @@ $(function(){
 })();
 
 //element1
-/*(function() {
+(function() {
 
   var mX, mY, distance,
     $proximity = $('#proximity'),
@@ -142,7 +142,7 @@ $(function(){
   });
 
 })();
-*/
+
 //element2
 (function() {
 
