@@ -69,8 +69,8 @@ $(function(){
   function calculateDistance(elem, mouseX, mouseY) {
     return Math.floor(
       Math.sqrt(
-        Math.pow(mouseX - (elem.offset().left+(elem.width()/2)), 2) +
-        Math.pow(mouseY - (elem.offset().top+(elem.height()/2)), 2)
+        Math.pow(mouseX - (elem.position().left+(elem.width()/2)), 2) +
+        Math.pow(mouseY - (elem.position().top+(elem.height()/2)), 2)
       ) // .floor: 내림 정수값, .pow(n,m): n을 m제곱, .sqrt: 제곱근
     ) - Math.round(elem.width()/2); // .round: 반올림/내림 정수값
   }
