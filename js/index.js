@@ -59,18 +59,18 @@ $(function(){
     $proximity = $('#proximity'),
     $distance = $('#distance'),
     $cursor  = $('#cursor'),
-    $person = $('.person');
+    $people = $('#people');
 
   // proximity threshold
   var proximity1 = 10;
-  var proximity2 = 80;
-  var proximity3 = 140;
+  var proximity2 = 30;
+  var proximity3 = 50;
 
   function calculateDistance(elem, mouseX, mouseY) {
     return Math.floor(
       Math.sqrt(
-        Math.pow(mouseX - (elem.position().left+(elem.width()/2)), 2) +
-        Math.pow(mouseY - (elem.position().top+(elem.height()/2)), 2)
+        Math.pow(mouseX - (elem.offset().left+(elem.width()/2)), 2) +
+        Math.pow(mouseY - (elem.offset().top+(elem.height()/2)), 2)
       ) // .floor: 내림 정수값, .pow(n,m): n을 m제곱, .sqrt: 제곱근
     ) - Math.round(elem.width()/2); // .round: 반올림/내림 정수값
   }
@@ -78,7 +78,7 @@ $(function(){
   $(document).mousemove(function(e) {
     mX = e.pageX;
     mY = e.pageY;
-    distance = calculateDistance($person, mX, mY);
+    distance = calculateDistance($people, mX, mY);
 
       if(distance > proximity3) {
         $cursor.removeClass("level1_c");
