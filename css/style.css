@@ -1,0 +1,282 @@
+/*@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+body {
+  background: url("http://www.mrwallpaper.com/wallpapers/2013-destiny-game-1366x768.jpg") center center fixed;
+  background-size: cover;
+  overflow: hidden;
+}*/
+
+
+body {
+  margin: 0;
+}
+
+.background {
+  position: absolute;
+  display: flex;
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#box {
+  position: relative;
+  display: flex;
+  background-color: #fff;
+  width: 665px;
+  height: 540px;
+  justify-content: center;
+  align-items: center;
+}
+
+#cursor {
+  position: absolute;
+  margin-left: -80px;
+  margin-top: -80px;
+  height: 150px;
+  width: 120px;
+}
+
+#cursor.level1_c{
+  width: 120px; height: 150px;
+  background: url('level1_all.png');
+}
+
+#cursor.level2_c{
+  width: 120px; height: 150px;
+  background: url('level2_sprites_w120.png') -525px -5px;
+}
+
+#cursor.level3_c{
+  width: 120px; height: 150px;
+  background: url('level3_source_13.gif');
+}
+
+#element1 {
+  position: absolute;
+  height: 150px;
+  width: 120px;
+}
+
+#element2 {
+  position: absolute;
+  height: 150px;
+  width: 120px;
+}
+
+#element3 {
+  position: absolute;
+  height: 150px;
+  width: 120px;
+}
+
+#element4 {
+  position: absolute;
+  height: 150px;
+  width: 120px;
+}
+
+#element5 {
+  position: absolute;
+  height: 150px;
+  width: 120px;
+
+}
+#element6 {
+  position: absolute;
+  height: 150px;
+  width: 120px;
+
+}
+#element7 {
+  position: absolute;
+  height: 150px;
+  width: 120px;
+
+}
+#element8 {
+  position: absolute;
+  height: 150px;
+  width: 120px;
+
+}
+#element9 {
+  position: absolute;
+  height: 150px;
+  width: 120px;
+}
+
+#element10 {
+  position: absolute;
+  height: 150px;
+  width: 120px;
+}
+
+#element11 {
+  position: absolute;
+  height: 150px;
+  width: 120px;
+}
+
+#element12 {
+  position: absolute;
+  height: 150px;
+  width: 120px;
+}
+
+#element1.level1_1{
+  width: 120px; height: 150px;
+  background: url('level1_all.png');
+}
+#element1.level2_1{
+  width: 120px; height: 150px;
+  background: url('level2_sprites_w120.png') -135px -5px;
+}
+#element1.level3_1{
+  width: 120px; height: 150px;
+  background: url('level3_source_1.gif');
+}
+
+#element2.level1_2{
+  width: 120px; height: 150px;
+  background: url('level1_all.png');
+}
+#element2.level2_2{
+  width: 120px; height: 150px;
+  background: url('level2_sprites_w120.png') -395px -5px;
+}
+#element2.level3_2{
+  width: 120px; height: 150px;
+  background: url('level3_source_2.gif');
+}
+
+#element3.level1_3{
+  width: 120px; height: 150px;
+  background: url('level1_all.png');
+}
+#element3.level2_3{
+  width: 120px; height: 150px;
+  background: url('level2_sprites_w120.png') -265px -5px;
+}
+#element3.level3_3{
+  width: 120px; height: 150px;
+  background: url('level3_source_3.gif');
+}
+
+#element4.level1_4{
+  width: 120px; height: 150px;
+  background: url('level1_all.png');
+}
+#element4.level2_4{
+  width: 120px; height: 150px;
+  background: url('level2_sprites_w120.png') -5px -165px;
+}
+#element4.level3_4{
+  width: 120px; height: 150px;
+  background: url('level3_source_4.gif');
+}
+
+#element5.level1_5{
+  width: 120px; height: 150px;
+  background: url('level1_all.png');
+}
+#element5.level2_5{
+  width: 120px; height: 150px;
+  background: url('level2_sprites_w120.png') -135px -165px;
+}
+#element5.level3_5{
+  width: 120px; height: 150px;
+  background: url('level3_source_5.gif');
+}
+
+#element6.level1_6{
+  width: 120px; height: 150px;
+  background: url('level1_all.png');
+}
+#element6.level2_6{
+  width: 120px; height: 150px;
+  background: url('level2_sprites_w120.png') -265px -165px;
+}
+#element6.level3_6{
+  width: 120px; height: 150px;
+  background: url('level3_source_6.gif');
+}
+
+#element7.level1_7{
+  width: 120px; height: 150px;
+  background: url('level1_all.png');
+}
+#element7.level2_7{
+  width: 120px; height: 150px;
+  background: url('level2_sprites_w120.png') -5px -5px;
+}
+#element7.level3_7{
+  width: 120px; height: 150px;
+  background: url('level3_source_7.gif');
+}
+
+#element8.level1_8{
+  width: 120px; height: 150px;
+  background: url('level1_all.png');
+}
+#element8.level2_8{
+  width: 120px; height: 150px;
+  background: url('level2_sprites_w120.png') -395px -165px;
+}
+#element8.level3_8{
+  width: 120px; height: 150px;
+  background: url('level3_source_8.gif');
+}
+
+#element9.level1_9{
+  width: 120px; height: 150px;
+  background: url('level1_all.png');
+}
+#element9.level2_9{
+  width: 120px; height: 150px;
+  background: url('level2_sprites_w120.png') -5px -325px;
+}
+#element9.level3_9{
+  width: 120px; height: 150px;
+  background: url('level3_source_9.gif');
+}
+
+#element10.level1_10{
+  width: 120px; height: 150px;
+  background: url('level1_all.png');
+}
+#element10.level2_10{
+  width: 120px; height: 150px;
+  background: url('level2_sprites_w120.png') -135px -325px;
+}
+#element10.level3_10{
+  width: 120px; height: 150px;
+  background: url('level3_source_10.gif');
+}
+
+#element11.level1_11{
+  width: 120px; height: 150px;
+  background: url('level1_all.png');
+}
+#element11.level2_11{
+  width: 120px; height: 150px;
+  background: url('level2_sprites_w120.png') -265px -325px;
+}
+#element11.level3_11{
+  width: 120px; height: 150px;
+  background: url('level3_source_11.gif');
+}
+
+#element12.level1_12{
+  width: 120px; height: 150px;
+  background: url('level1_all.png');
+}
+#element12.level2_12{
+  width: 120px; height: 150px;
+  background: url('level2_sprites_w120.png') -395px -325px;
+}
+#element12.level3_12{
+  width: 120px; height: 150px;
+  background: url('level3_source_12.gif');
+}
