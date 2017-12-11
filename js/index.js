@@ -59,7 +59,7 @@ $(function(){
     $proximity = $('#proximity'),
     $distance = $('#distance'),
     $cursor  = $('#cursor'),
-    $people = $('#people');
+    $person = $('.person');
 
   // proximity threshold
   var proximity1 = 10;
@@ -78,7 +78,7 @@ $(function(){
   $(document).mousemove(function(e) {
     mX = e.pageX;
     mY = e.pageY;
-    distance = calculateDistance($people, mX, mY);
+    distance = calculateDistance($person, mX, mY);
 
       if(distance > proximity3) {
         $cursor.removeClass("level1_c");
