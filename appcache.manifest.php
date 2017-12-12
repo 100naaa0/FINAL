@@ -20,7 +20,7 @@ css/level3_source_12.gif
 css/level3_source_13.gif
 css/style.css
 js/index.js
-http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js
+jquery.min.js
 
 NETWORK:
 
