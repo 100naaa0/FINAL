@@ -1,4 +1,4 @@
-ACHE MANIFEST
+CACHE MANIFEST
 # version 0.1.0
 
 CACHE:
